@@ -40,4 +40,6 @@ background-position: top left; }
   background-position: center;
 }
 
-.logo {display:flex; justify-content: center; animation: bounce 6s ease-in-out; animation-iteration-count: infinite;}
+.logo {display: flex; justify-content: center; align-items: center; height: 100vh; animation: bounce 6s ease-in-out; animation-iteration-count: infinite;}
+
+.logo img {max-width: 100%; height: auto;}
