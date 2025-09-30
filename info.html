@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<style>
+
+@keyframes gradient {
+
+    0% {background-position-y: 500%}
+    100% {background-position-y:0}
+
+}
+
+body {
+animation: gradient 30s linear infinite;
+background-size: cover;
+
+background: conic-gradient(
+
+
+#cdacf3 90deg,
+
+rgb(155, 165, 255) 90deg 180deg,
+
+#cdacf3 180deg 270deg,
+
+rgb(155, 165, 255) 90deg 180deg
+
+);
+
+background-repeat: repeat ;
+
+background-size: 200px 200px;
+
+background-position: top left; }
+
+h1 {color: rgb(250, 248, 244); font-family: "Rubik Beastly", system-ui;
+  font-style: normal; display: flex; overflow: hidden;
+        padding: 30px; border-radius: 30px; margin-top: 50px; justify-content: center; font-size: 10vb;}
+
+.info {  font-family: "Special Elite", system-ui;
+  font-weight: 400; font-style: normal; background-color: rgb(250, 248, 244); border-radius: 40px; padding: 50px; display: flex; justify-content: center;
+ margin-left: 10vw; margin-right: 10vw; font-size: 30px; flex-direction: column;}
+
+.back {display: flex; justify-content: center; margin-top: 50px; margin-bottom: 20px; transition: transform 0.1s ease-in-out;}
+
+.rakkoon {scale: 80%;}
+
+ .back:hover {transform: scale(0.9);}
+
+@media screen and (max-width: 600px) {  
+  .info {font-size:  5vw; border-radius: 30px; padding: 10px; margin-left: 5vw; margin-right: 5vw;}
+ }
+
+
+
+</style>
+<body>
+    <h1>Hello!</h1>
+<div class="info"><p>My name is Raccoon!</p>
+<p> I make art and music and websites.</p>
+<p>I currently live in Mexico city, and I will steal your trash.</p>
+<img src="rakkie.gif" class="rakkoon">
+</div>
+<div class="back"><a href="main.html"><img src="back.gif" class="back"></a></div>
+</body>
+</html>
